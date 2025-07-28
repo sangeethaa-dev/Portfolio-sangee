@@ -64,7 +64,7 @@ import strapi from '../assets/svg/skills/strapi.svg';
 import svelte from '../assets/svg/skills/svelte.svg';
 import swift from '../assets/svg/skills/swift.svg';
 import tailwind from '../assets/svg/skills/tailwind.svg';
-import tensorflow from '../assets/svg/skills/SpringBoot.png';
+
 import typescript from '../assets/svg/skills/typescript.svg';
 import unity from '../assets/svg/skills/unity.svg';
 import vitejs from '../assets/svg/skills/vitejs.svg';
