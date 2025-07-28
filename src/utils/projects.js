@@ -59,8 +59,8 @@ export const projects = [
     },
 
     {
-        image: "public/image/hotel booking.jpg",
-        title: "Hotel Booking",
+        image: "public/image/hotel-booking.jpg",
+        title: "Hotel-Booking",
         subtitle: "React js,Tailwind CSS",
         handle: "Github Link👈",
         borderColor: "#EC4899",

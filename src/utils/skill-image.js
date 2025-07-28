@@ -82,7 +82,7 @@ import linux from '../assets/svg/skills/linux.svg'
 import sqlalchemy from '../assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../assets/svg/skills/fastapi.svg'
 import powerbi from '../assets/svg/skills/powerbi.svg'
-import springboot from '../assets/svg/skills/SpringBoot.png'; // or .svg if you have that
+import springboot from '../assets/svg/skills/Springboot.png'; // or .svg if you have that
 
 
 
