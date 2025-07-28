@@ -1,6 +1,6 @@
 export const projects = [
   {
-    image: "/image/travelpng.jpg",
+    image: "public/image/travelpng.jpg",
     title: "Travel Booking System",
     subtitle: "MYSQL",
     handle: "Github Link👈",
@@ -9,7 +9,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/Sql-project",
   },
   {
-    image: "/image/taskmanagement.jpg",
+    image: "public/image/taskmanagement.jpg",
     title: "Task-Management",
     subtitle: "React js, Tailwind CSS",
     handle: "Live Link👈",
@@ -18,7 +18,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/Taskify/",
   },
   {
-    image: "/image/snakegame.png",
+    image: "public/image/snakegame.png",
     title: "Snake Game",
     subtitle: "HTML, CSS, and JavaScript",
     handle: "Live Link👈",
@@ -27,7 +27,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/SnakeGame/",
   },
   {
-    image: "/image/ecommerce.jpg",
+    image: "public/image/ecommerce.jpg",
     title: "E-Commerce",
     subtitle: "React js , Tailwind CSS",
     handle: "Github Link👈",
@@ -36,7 +36,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/Zaptro-yt",
   },
   {
-    image: "/image/3in1.png",
+    image: "public/image/3in1.png",
     title: "3 in 1 Project",
     subtitle: "HTML, CSS, JavaScript",
     handle: "Live Link👈",
@@ -45,7 +45,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/calculator/",
   },
   {
-    image: "/image/productmanagement.jpg",
+    image: "public/image/productmanagement.jpg",
     title: "Product Sales",
     subtitle: "SpringBoot, Html, Tailwind CSS",
     handle: "Github Link👈",
@@ -54,7 +54,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/ProductSales",
   },
   {
-    image: "/image/hotelbooking.jpg",
+    image: "public/image/hotelbooking.jpg",
     title: "Hotel Booking",
     subtitle: "React js, Tailwind CSS",
     handle: "Github Link👈",
@@ -63,7 +63,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/HotelBooking",
   },
   {
-    image: "/image/bookstore.jpg",
+    image: "public/image/bookstore.jpg",
     title: "Book Store",
     subtitle: "SpringBoot, Html, Tailwind CSS",
     handle: "Github Link👈",
