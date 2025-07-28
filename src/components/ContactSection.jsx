@@ -8,7 +8,7 @@ import { IoLogoGithub, IoMdCall } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 //import ContactForm3 from "./ContactForm3.jsx";
 //import ContactForm4 from "./ContactForm4.jsx";
-import ContactForm from "./ContactForm.jsx"; // if your file is ContactForm.jsx
+import ContactForm from "./Contactform.jsx"; // if your file is ContactForm.jsx
 
 
 function isValidEmail(email) {
