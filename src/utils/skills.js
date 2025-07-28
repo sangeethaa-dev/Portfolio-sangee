@@ -5,7 +5,6 @@ export const skillsData = [
     "React",
     "MySQL",
     "JAVA",
-    "Git",
-    "Tailwind",
+  "Tailwind",
     "Springboot"
 ];
