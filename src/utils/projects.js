@@ -1,6 +1,10 @@
+
+
+
 export const projects = [
     {
-        image: "/image/travel png.jpg",
+        image: "public/image/ecommerce.jpg",
+
         title: "Travel Booking System ",
         subtitle: "MYSQL",
         handle: "Github Link👈",
@@ -9,7 +13,7 @@ export const projects = [
         url: "https://github.com/sangeethaa-dev/Sql-project",
     },
     {
-        image: "/image/task-management.jpg",
+        image: "public/image/task-management.jpg",
         title: "Task-Management",
         subtitle: "React js, Tailwind CSS",
         handle: "Live Link👈",
@@ -18,7 +22,7 @@ export const projects = [
         url: "https://sangeethaa-dev.github.io/Taskify/",
     },
     {
-        image: "/image/snake_game.png",
+        image: "public/image/snake_game.png",
         title: "Snake Game",
         subtitle: "HTML, CSS, and JavaScript",
         handle: "Live Link👈",
@@ -27,7 +31,7 @@ export const projects = [
         url: "https://sangeethaa-dev.github.io/SnakeGame/",
     },
     {
-        image: "/image/ecommerce.jpg",
+        image: "public/image/ecommerce.jpg",
         title: "E-Commerce ",
         subtitle: "React js , Tailwind CSS",
         handle: "Github Link👈",
@@ -36,7 +40,7 @@ export const projects = [
         url: "https://github.com/sangeethaa-dev/Zaptro-yt",
     },
     {
-        image: "/image/3in1.png",
+        image: "public/image/3in1.png",
         title: "3 in 1 Project",
         subtitle: " HTML, CSS, JavaScript",
         handle: "Live Link👈",
@@ -45,7 +49,7 @@ export const projects = [
         url: "https://sangeethaa-dev.github.io/calculator/",
     },
     {
-        image: "/image/Product-Management.jpg",
+        image: "public/image/Product-Management.jpg",
         title: "Product Sales",
         subtitle: "SpringBoot, Html, Tailwind CSS",
         handle: "Github Link👈",
@@ -55,7 +59,7 @@ export const projects = [
     },
 
     {
-        image: "/image/hotel booking.jpg",
+        image: "public/image/hotel booking.jpg",
         title: "Hotel Booking",
         subtitle: "React js,Tailwind CSS",
         handle: "Github Link👈",
@@ -64,7 +68,7 @@ export const projects = [
         url: "https://github.com/sangeethaa-dev/HotelBooking",
     },
     {
-        image: "/image/Bookstore.jpg",
+        image: "public/image/Bookstore.jpg",
         title: "Book Store",
         subtitle: "SpringBoot, Html, Tailwind CSS",
         handle: "Github Link👈",
