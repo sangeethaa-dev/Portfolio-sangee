@@ -7,5 +7,5 @@ export const skillsData = [
     "JAVA",
     "Git",
     "Tailwind",
-    "SpringBoot"
+    "Springboot"
 ];
