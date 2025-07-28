@@ -46,7 +46,7 @@ import mysql from '../assets/svg/skills/mysql.svg';
 import nextJS from '../assets/svg/skills/nextjs.svg';
 import nginx from '../assets/svg/skills/nginx.svg';
 import numpy from '../assets/svg/skills/numpy.svg';
-import nuxtJS from '../assets/svg/skills/nuxtjs.svg';
+
 import opencv from '../assets/svg/skills/opencv.svg';
 import photoshop from '../assets/svg/skills/photoshop.svg';
 import php from '../assets/svg/skills/php.svg';
