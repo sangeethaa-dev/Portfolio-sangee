@@ -4,9 +4,9 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 //import { SiLeetcode, SiX } from "react-icons/si";
 
-// >>> SANGEETHA: ADD THIS IMPORT STATEMENT <<<
-import heroSvg from '../assets/svg/hero.svg'; // Adjust path if your hero.svg is in a different 'src/assets' subfolder.
-                                             // If it's in src/assets/image, it would be '../assets/image/hero.svg'
+// SANGEETHA: THIS IS THE CORRECT IMPORT FOR hero.svg
+// It assumes hero.svg is now located at 'src/assets/svg/hero.svg'
+import heroSvg from '../assets/svg/hero.svg';
 
 import SelfCode from "./SelfCode.jsx";
 import "@material/web/button/filled-tonal-button.js";
@@ -14,8 +14,9 @@ import "@material/web/button/text-button.js";
 function Hero() {
     return (
         <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+            {/* SANGEETHA: THIS IS WHERE YOU USE THE IMPORTED heroSvg VARIABLE */}
             <img
-                src={heroSvg} // >>> SANGEETHA: CHANGE THIS LINE: use the imported variable <<<
+                src={heroSvg} // Use the imported variable directly
                 alt="Hero"
                 width={1572}
                 height={795}
