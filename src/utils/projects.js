@@ -1,6 +1,20 @@
+// src/utils/projects.js
+
+// Import all your project images here
+import travelPng from '../assets/image/travelpng.jpg';
+import taskManagementPng from '../assets/image/taskmanagement.jpg';
+import snakeGamePng from '../assets/image/snakegame.png';
+import ecommercePng from '../assets/image/ecommerce.jpg';
+import threeInOnePng from '../assets/image/3in1.png'; // Make sure the filename is 3in1.png
+import productManagementPng from '../assets/image/productmanagement.jpg';
+import hotelBookingPng from '../assets/image/hotelbooking.jpg';
+import bookStorePng from '../assets/image/bookstore.jpg';
+import sangeePng from '../assets/image/sangee.jpg'; // Assuming 'sangee.jpg' is one of your project images
+
+
 export const projects = [
   {
-    image: "/image/travelpng.jpg",
+    image: travelPng, // Use the imported variable, NOT a string path
     title: "Travel Booking System",
     subtitle: "MYSQL",
     handle: "Github Link👈",
@@ -9,7 +23,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/Sql-project",
   },
   {
-    image: "/image/taskmanagement.jpg",
+    image: taskManagementPng, // Use the imported variable
     title: "Task-Management",
     subtitle: "React js, Tailwind CSS",
     handle: "Live Link👈",
@@ -18,7 +32,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/Taskify/",
   },
   {
-    image: "/image/snakegame.png",
+    image: snakeGamePng, // Use the imported variable
     title: "Snake Game",
     subtitle: "HTML, CSS, and JavaScript",
     handle: "Live Link👈",
@@ -27,7 +41,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/SnakeGame/",
   },
   {
-    image: "/image/ecommerce.jpg",
+    image: ecommercePng, // Use the imported variable
     title: "E-Commerce",
     subtitle: "React js , Tailwind CSS",
     handle: "Github Link👈",
@@ -36,7 +50,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/Zaptro-yt",
   },
   {
-    image: "/image/3in1.png",
+    image: threeInOnePng, // Use the imported variable
     title: "3 in 1 Project",
     subtitle: "HTML, CSS, JavaScript",
     handle: "Live Link👈",
@@ -45,7 +59,7 @@ export const projects = [
     url: "https://sangeethaa-dev.github.io/calculator/",
   },
   {
-    image: "/image/productmanagement.jpg",
+    image: productManagementPng, // Use the imported variable
     title: "Product Sales",
     subtitle: "SpringBoot, Html, Tailwind CSS",
     handle: "Github Link👈",
@@ -54,7 +68,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/ProductSales",
   },
   {
-    image: "/image/hotelbooking.jpg",
+    image: hotelBookingPng, // Use the imported variable
     title: "Hotel Booking",
     subtitle: "React js, Tailwind CSS",
     handle: "Github Link👈",
@@ -63,7 +77,7 @@ export const projects = [
     url: "https://github.com/sangeethaa-dev/HotelBooking",
   },
   {
-    image: "/image/bookstore.jpg",
+    image: bookStorePng, // Use the imported variable
     title: "Book Store",
     subtitle: "SpringBoot, Html, Tailwind CSS",
     handle: "Github Link👈",
@@ -71,4 +85,5 @@ export const projects = [
     gradient: "linear-gradient(175deg, #EC4899, #000)",
     url: "https://github.com/sangeethaa-dev/BookStore",
   },
+  
 ];
