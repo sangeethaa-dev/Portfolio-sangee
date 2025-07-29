@@ -10,7 +10,7 @@ import "@material/web/button/filled-tonal-button.js";
 import "@material/web/button/text-button.js";
 function Hero() {
     return (
-        <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
+        <section id="home" className="relative flex flex-col items-center justify-between py-4 lg:py-12">
             <img
                 src="/hero.svg"
                 alt="Hero"
