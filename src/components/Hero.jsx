@@ -4,9 +4,6 @@ import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa";
 //import { SiLeetcode, SiX } from "react-icons/si";
 
-// SANGEETHA: THIS IS THE CORRECT IMPORT FOR hero.svg
-// It assumes hero.svg is now located at 'src/assets/svg/hero.svg'
-import heroSvg from '../assets/svg/hero.svg';
 
 import SelfCode from "./SelfCode.jsx";
 import "@material/web/button/filled-tonal-button.js";
@@ -14,9 +11,8 @@ import "@material/web/button/text-button.js";
 function Hero() {
     return (
         <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
-            {/* SANGEETHA: THIS IS WHERE YOU USE THE IMPORTED heroSvg VARIABLE */}
             <img
-                src={heroSvg} // Use the imported variable directly
+                src="/hero.svg"
                 alt="Hero"
                 width={1572}
                 height={795}
@@ -65,7 +61,7 @@ function Hero() {
                     </div>
 
                     {/* CONTACT & RESUME BUTTONS */}
-                
+            
                     <div className="flex items-center gap-3">
                         <md-filled-tonal-button trailing-icon>
                             Hire Me
